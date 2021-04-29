@@ -5,12 +5,14 @@ var express = require("express");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-// Data parce
+// Data parc
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
 
+//Require routes file
+require('./routes/routes')(app);
 
 // express listening for port 
 app.listen(PORT, function () {
