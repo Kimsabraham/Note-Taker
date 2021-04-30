@@ -19,7 +19,7 @@ module.exports = function (app) {
     });
     res.json(database);
   });
-  // jpdates notes
+  // updates notes
   app.patch("/api/notes/:id", function (req, res) {
     if (req.body._id && req.body._id != req.params.id)
       return res
