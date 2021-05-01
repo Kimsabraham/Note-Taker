@@ -21,5 +21,6 @@ The following project is under MIT license.
 # Tests
 None
 # Questions
-![image](public\assets\css\note-taker-04-29-2021.herokuapp.com_notes.png)
+![screenshotNotakeTaker](https://user-images.githubusercontent.com/75137165/116792091-952f9900-aa8c-11eb-8c34-c3ec046488d4.png)
+
 For any questions please contact,GitHub: Kimsabraham or email  kimsabraham@gmail.com.
